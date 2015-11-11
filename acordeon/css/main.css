@@ -1,0 +1,63 @@
+.acordeon {
+   border-collapse:collapse;
+   padding:0px;
+   margin:0px auto;
+   width:690px;
+   height:20px;
+   box-shadow: 0 0 10px #333;
+}
+.acordeon td {
+   padding:0;
+   /*width:136px;*/
+   height:117px;
+   border:2px solid #fff;
+   -moz-transition: 0.7s;
+   -ms-transition: 0.7s;
+   -o-transition: 0.7s;
+   -webkit-transition: 0.7s;
+   transition: 0.7s;
+}
+.acordeon td.p1 {
+   background:url("../img/imagen.jpg") no-repeat center center;
+   background-size:cover;}
+.acordeon td.p2 {
+   background:url("../img/imagen.jpg") no-repeat center center;
+   background-size:cover;}
+.acordeon td.p3 {
+   background:url("../img/imagen.jpg") no-repeat center center;
+   background-size:cover;}
+.acordeon td.p4 {
+   background:url("../img/imagen.jpg") no-repeat center center;
+   background-size:cover;}
+.acordeon td.p5 {
+   background:url("../img/imagen.jpg") no-repeat center center;
+   background-size:cover;}
+ .acordeon td.p6 {
+   background:url("../img/imagen.jpg") no-repeat center center;
+   background-size:cover;}
+.acordeon td.p7 {
+   background:url("../img/imagen.jpg") no-repeat center center;
+   background-size:cover;}
+.acordeon td.p8 {
+   background:url("../img/imagen.jpg") no-repeat center center;
+   background-size:cover;}
+.acordeon td.p9 {
+   background:url("../img/imagen.jpg") no-repeat center center;
+   background-size:cover;}
+.acordeon td.p10 {
+   background:url("../img/imagen.jpg") no-repeat center center;
+   background-size:cover;}
+
+.acordeon td {
+   width:50px;
+   /*height:50px;*/
+}
+
+.acordeon tr:hover td {
+   height:320px;
+}
+
+.acordeon td:hover {
+   width:480px;
+   height:320px;
+}
